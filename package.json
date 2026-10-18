@@ -1,0 +1,30 @@
+{
+	"name": "dsh-agent-team-roster",
+	"version": "0.2.0",
+	"private": true,
+	"description": "Agent Teams roster administration for dsh: newest-first display order, bulk cleanup, and teammate rename/delete -- 名册倒序显示、批量清理与成员改名/删除",
+	"type": "module",
+	"main": "lib/index.js",
+	"exports": {
+		".": "./lib/index.js",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"lib/index.js",
+		"cordis.patch.yml",
+		"README.md",
+		"README.en.md"
+	],
+	"keywords": [
+		"dsh",
+		"cordis",
+		"agent-teams",
+		"plugin"
+	],
+	"dsh": {
+		"bundle": {
+			"patch": "./cordis.patch.yml"
+		}
+	},
+	"license": "MIT"
+}
