@@ -1,0 +1,11 @@
+# Runtime and generated artifacts
+node_modules
+test/node_modules
+/test/core-pristine.js
+
+# Upstream dsh code copy: kept locally for hash comparison, never redistributed
+/backup/agent-team.index.js.orig
+
+# Editor and OS noise
+.DS_Store
+*.log
